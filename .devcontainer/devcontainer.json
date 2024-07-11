@@ -5,6 +5,19 @@
 	"build": { 
 		"context": "..",
 		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-toolsai.jupyter",
+				"ms-python.python",
+				"MS-CEINTL.vscode-language-pack-ja",
+				"GrapeCity.gc-excelviewer",
+				"GitHub.copilot",
+				"mhutchie.git-graph",
+				"eamodio.gitlens"
+			]
+		}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
